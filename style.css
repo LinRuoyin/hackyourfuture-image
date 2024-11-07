@@ -1,0 +1,711 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+ }
+
+ body {
+   display: flex;
+   flex-direction: column;
+   background-color: #FEF7FF;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+
+
+ /* desk top end */
+ html {
+   font-size: 1rem;
+ }
+
+
+
+ .nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem 2rem;
+   background-color: #65558F;
+   color: white;
+   box-shadow: 0 0.25rem 0.5rem 0.1875rem rgba(0, 0, 0, 0.15), 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.3);
+ }
+
+ .logo {
+   font-size: 1.5rem;
+   font-weight: bold;
+
+ }
+
+
+ .nav-link {
+   display: flex;
+   list-style: none;
+ }
+
+
+ .nav-link li {
+   cursor: pointer;
+ }
+
+ .nav-link li {
+   margin-left: 1.6rem;
+   font-weight: 700;
+ }
+
+ .nav-link a {
+   color: white;
+   text-decoration: none;
+ }
+
+ .nav-link a:hover,
+ button:hover {
+   cursor: pointer;
+ }
+
+ .menu-icon {
+   display: none;
+ }
+
+ .language {
+   display: flex;
+   align-items: center;
+   padding: 0.5rem;
+   gap: 0.5rem;
+   font-weight: 700;
+ }
+
+ /* section Hero */
+
+ .hero-section {
+   display: flex;
+   justify-content: center;
+   padding-top: 5rem;
+
+
+   width: 100%;
+   height: 100%;
+ }
+
+ .hero-div {
+   display: flex;
+   flex-direction: row;
+   padding: 1.875rem;
+   gap: 1.875rem;
+   max-width: 90rem;
+   width: 100%;
+   background: #E8DEF8;
+   border-radius: 1.25rem;
+   height: 100%;
+   margin-left: 1rem;
+   margin-right: 1rem;
+ }
+
+ .hero-img {
+   display: flex;
+   max-width: auto;
+   height: 31.9375rem;
+   border-radius: 1.25rem;
+
+ }
+
+ .hero-box {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   margin-left: 0rem;
+   width: 100%;
+   height: 100%;
+ }
+
+ .hero-h2 {
+   font-style: normal;
+   font-size: 45px;
+   font-weight: 700;
+   color: #21005D;
+   text-align: center;
+   margin-bottom: 1rem;
+ }
+
+ .hero-p {
+   display: flex;
+   height: 9rem;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   align-items: center;
+   text-align: justify;
+   letter-spacing: 0.5px;
+   color: #000000;
+   width: 100%;
+   height: 100%;
+ }
+
+ /* frame 1 - Event info section */
+ .frame1 {
+   display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+   background-color: #F9DEDC;
+
+
+ }
+
+ .frame1-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.875rem;
+   max-width: 90rem;
+   width: 100%;
+   border-radius: 1.25rem;
+   min-height: 35.125rem;
+   height: 100%;
+   margin-left: 1rem;
+   margin-right: 1rem;
+ }
+
+ .frame1-title {
+   display: flex;
+   height: 3.25rem;
+   font-weight: 700;
+   font-size: 2.8125rem;
+   color: #21005D;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .frame1-son {
+   display: flex;
+   background-color: white;
+   border-radius: 1.25rem;
+   overflow: hidden;
+
+ }
+
+ .frame1-son-left-image {
+   display: flex;
+   width: 100%;
+   height: 100%;
+ }
+
+ .frame1-son-right {
+   display: flex;
+   flex-direction: column;
+   margin: 1.875rem;
+   gap: 1.875rem;
+ }
+
+ .about {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 7.5rem;
+
+ }
+
+ .about span {
+   display: flex;
+   gap: 0.625rem;
+   align-items: center;
+ }
+
+ .about span p {
+   font-weight: 600;
+   font-size: 1.25rem;
+   color: #31111D;
+ }
+
+
+ .event-detail {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+
+ }
+
+ .event-detail h2 {
+   display: flex;
+   font-weight: 700;
+   font-size: 2rem;
+   font-family: 'Roboto';
+ }
+
+ .event-detail p {
+   display: flex;
+
+   font-weight: 400;
+   font-size: 1rem;
+   align-items: center;
+   text-align: justify;
+   letter-spacing: 0.5px;
+   color: #000000;
+   width: 100%;
+   height: 100%;
+
+ }
+
+ .btn-buy-ticket {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 20px;
+   width: 13rem;
+   height: 3.75rem;
+   color: white;
+   background: #31111D;
+   border-radius: 20px;
+   font-weight: 700;
+   font-size: 24px;
+ }
+
+ /* section all events */
+ .allevents {
+   display: flex;
+   justify-content: center;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding-top: 5rem;
+ }
+
+ .allevents-box {
+   display: flex;
+   flex-direction: column;
+   max-width: 90rem;
+   width: 100%;
+   justify-content: center;
+   margin-bottom: 5rem;
+   gap: 1.875rem;
+ }
+
+ .allevents-title {
+   display: flex;
+   font-weight: 700;
+   font-size: 2.8125rem;
+   line-height: 3.25rem;
+   color: #21005D;
+   justify-content: center;
+ }
+
+ .events-box {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   gap: 1rem;
+ }
+
+ .introday-box {
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   overflow: hidden;
+   width: 100%;
+   gap: 1.25rem;
+   background: #D0BCFF;
+   box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+ }
+
+ .introday-img1 {
+   width: 100%;
+   height: 18.75rem;
+   object-fit: cover;
+
+ }
+
+
+ .introday-box-info {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 1.875rem;
+   gap: 1.875rem;
+   width: 25rem;
+   width: 100%;
+   height: 26.6875rem;
+ }
+
+ .introday-title {
+   display: flex;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 2.5rem;
+   color: #21005D;
+
+ }
+
+ .introday-info {
+   display: flex;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   letter-spacing: 0.5px;
+   color: #21005D;
+   width: 25rem;
+   width: 100%;
+   height: 4.5rem;
+ }
+
+ .btn-learn-more {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 20px;
+   letter-spacing: 0.1px;
+   color: #FFFFFF;
+   width: 14rem;
+   font-family: 'Roboto';
+   font-style: normal;
+   height: 3.75rem;
+   background: #21005D;
+   border-radius: 20px;
+   padding: 20px 20px;
+ }
+
+ #introday-about span>p {
+   display: flex;
+   font-weight: 600;
+   font-size: 20px;
+ }
+
+ /* footer part */
+ footer {
+   background: #65558F;
+   padding: 50px 30px 50px 30px;
+
+ }
+
+ .footer-son {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   max-width: 90rem;
+   min-height: 15.625rem;
+ }
+
+ .footer-son1 {
+   display: flex;
+   justify-content: space-between;
+
+ }
+
+
+
+ .footer-son1-info {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+
+
+ .footer-title {
+   color: #FFFFFF;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 1.25rem;
+ }
+
+
+ .footer-detail {
+   display: flex;
+   flex-direction: column;
+   gap: .625rem;
+   color: #FFFFFF;
+   letter-spacing: 0.5px;
+   list-style-type: none
+ }
+
+
+
+ .googlemap {
+   display: flex;
+   width: 17rem;
+   height: 17rem;
+ }
+
+ .footer-son2 {
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+ }
+
+ .footer-detail :hover {
+   color: red;
+   cursor: pointer;
+ }
+
+
+ /* mobil end */
+ @media (max-width:1200px) {
+
+   .hero-div {
+     flex-direction: column;
+   }
+
+   .hero-img,
+   .frame1-son-left-image {
+     width: 100%;
+     height: 100%;
+   }
+
+   .frame1-son {
+     flex-direction: column;
+
+   }
+
+   /* section  all events  */
+
+   .events-box {
+     flex-direction: column;
+     padding: 1rem;
+
+   }
+
+   .introday-box-info {
+     flex-direction: column;
+     padding: 1rem;
+     width: 100%;
+   }
+
+   /* footer part */
+
+   .footer-son1 {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 3rem;
+   }
+
+   .footer-son2 {
+     margin-top: 4rem;
+   }
+
+ }
+
+
+
+
+ @media (max-width:768px) {
+
+   .menu-icon {
+     display: block;
+   }
+
+
+
+   .logo {
+     font-size: 1.8rem;
+     font-weight: 700;
+     margin-left: -1rem;
+   }
+
+   .nav-link,
+   .language {
+     display: none;
+   }
+
+
+
+   /* hero section */
+   .hero-section {
+     margin-top: 0rem;
+     margin-bottom: 1rem;
+   }
+
+   .hero-div {
+     flex-direction: column;
+     padding: 1rem;
+     margin: 1rem;
+   }
+
+
+
+   .hero-h2 {
+     font-size: 2rem;
+     margin-top: -1rem;
+   }
+
+
+   /* frame1 section */
+   .frame1 {
+     margin-top: 0rem;
+     padding-top: 2.5rem;
+     padding-bottom: 1rem;
+
+   }
+
+   .frame1-box {
+     margin: 0rem;
+     gap: 1rem;
+
+   }
+
+   .frame1-son {
+     margin-left: 1rem;
+     margin-right: 1rem;
+   }
+
+
+
+   .frame1-title {
+     font-size: 2.25rem;
+   }
+
+   .frame1-son-right {
+     margin: 1rem;
+     gap: 1.25rem;
+   }
+
+   .about {
+     gap: 1rem;
+   }
+
+   .about span {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+   }
+
+   .about span img {
+     width: 1.875rem;
+     height: 1.875rem;
+   }
+
+
+
+   .about span p {
+     font-size: 1.125rem;
+     margin: 0;
+   }
+
+   .event-detail h2 {
+     font-size: 1.75rem;
+     font-weight: 700;
+
+   }
+
+   .event-detail p {
+     width: 100%;
+     height: 100%;
+     font-weight: 400;
+     font-size: 0.875rem;
+     line-height: 1.25rem;
+     letter-spacing: 0.25px;
+   }
+
+   .btn-buy-ticket {
+     padding: 1.125rem 1.25rem;
+     width: 100%;
+     height: 3.5rem;
+     border-radius: 10px;
+     font-size: 20px;
+   }
+
+   /* section all events */
+
+   /* section all events */
+
+   .allevents {
+     margin-top: -2.5rem;
+     margin-bottom: 2rem;
+     gap: 1rem;
+   }
+
+   .allevents-box {
+     gap: 1rem;
+   }
+
+   .events-box {
+     padding: 0rem;
+
+   }
+
+   .allevents-title {
+     font-size: 2.25rem;
+   }
+
+   .introday-box {
+     gap: 0rem;
+     border-radius: 10px;
+     height: 100%;
+   }
+
+
+   .introday-box-info {
+     gap: 1rem;
+     height: auto;
+
+   }
+
+   .introday-title {
+     display: flex;
+     font-family: 'Roboto';
+     font-weight: 700;
+     font-size: 1.5rem;
+     color: #21005D;
+   }
+
+   .introday-info {
+     font-weight: 400;
+     font-size: 14px;
+     letter-spacing: 0.25px;
+   }
+
+
+
+
+   #introday-about span>p {
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 20px;
+     letter-spacing: 0.1px;
+
+
+   }
+
+   .btn-learn-more {
+     padding: 1.125rem 1.25rem;
+     width: 100%;
+     height: 3.5rem;
+     border-radius: 10px;
+     align-self: stretch;
+     font-size: 20px;
+   }
+
+   footer {
+     padding-left: 1rem;
+     padding-right: 1rem;
+   }
+
+   .footer-son1 {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 3rem;
+   }
+
+   .googlemap {
+     width: 100%;
+     height: 15.625rem;
+
+   }
+
+   .footer-son2 {
+     justify-content: flex-start;
+   }
+
+
+
+ }
